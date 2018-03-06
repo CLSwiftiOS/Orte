@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96ED9E21204EA1AF009E40BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED9E20204EA1AF009E40BC /* AppDelegate.swift */; };
+		96ED9E23204EA1AF009E40BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED9E22204EA1AF009E40BC /* ViewController.swift */; };
+		96ED9E26204EA1AF009E40BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ED9E24204EA1AF009E40BC /* Main.storyboard */; };
+		96ED9E29204EA1AF009E40BC /* Orte.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96ED9E27204EA1AF009E40BC /* Orte.xcdatamodeld */; };
+		96ED9E2B204EA1AF009E40BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96ED9E2A204EA1AF009E40BC /* Assets.xcassets */; };
+		96ED9E2E204EA1AF009E40BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ED9E2C204EA1AF009E40BC /* LaunchScreen.storyboard */; };
+		96ED9E39204EA1AF009E40BC /* OrteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED9E38204EA1AF009E40BC /* OrteTests.swift */; };
+		96ED9E44204EA1AF009E40BC /* OrteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED9E43204EA1AF009E40BC /* OrteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96ED9E35204EA1AF009E40BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96ED9E15204EA1AF009E40BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96ED9E1C204EA1AF009E40BC;
+			remoteInfo = Orte;
+		};
+		96ED9E40204EA1AF009E40BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96ED9E15204EA1AF009E40BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96ED9E1C204EA1AF009E40BC;
+			remoteInfo = Orte;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96ED9E1D204EA1AF009E40BC /* Orte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ED9E20204EA1AF009E40BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96ED9E22204EA1AF009E40BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96ED9E25204EA1AF009E40BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96ED9E28204EA1AF009E40BC /* Orte.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Orte.xcdatamodel; sourceTree = "<group>"; };
+		96ED9E2A204EA1AF009E40BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96ED9E2D204EA1AF009E40BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96ED9E2F204EA1AF009E40BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96ED9E34204EA1AF009E40BC /* OrteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ED9E38204EA1AF009E40BC /* OrteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrteTests.swift; sourceTree = "<group>"; };
+		96ED9E3A204EA1AF009E40BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96ED9E3F204EA1AF009E40BC /* OrteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96ED9E43204EA1AF009E40BC /* OrteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrteUITests.swift; sourceTree = "<group>"; };
+		96ED9E45204EA1AF009E40BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96ED9E1A204EA1AF009E40BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ED9E31204EA1AF009E40BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ED9E3C204EA1AF009E40BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96ED9E14204EA1AF009E40BC = {
+			isa = PBXGroup;
+			children = (
+				96ED9E1F204EA1AF009E40BC /* Orte */,
+				96ED9E37204EA1AF009E40BC /* OrteTests */,
+				96ED9E42204EA1AF009E40BC /* OrteUITests */,
+				96ED9E1E204EA1AF009E40BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96ED9E1E204EA1AF009E40BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96ED9E1D204EA1AF009E40BC /* Orte.app */,
+				96ED9E34204EA1AF009E40BC /* OrteTests.xctest */,
+				96ED9E3F204EA1AF009E40BC /* OrteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96ED9E1F204EA1AF009E40BC /* Orte */ = {
+			isa = PBXGroup;
+			children = (
+				96ED9E20204EA1AF009E40BC /* AppDelegate.swift */,
+				96ED9E22204EA1AF009E40BC /* ViewController.swift */,
+				96ED9E24204EA1AF009E40BC /* Main.storyboard */,
+				96ED9E2A204EA1AF009E40BC /* Assets.xcassets */,
+				96ED9E2C204EA1AF009E40BC /* LaunchScreen.storyboard */,
+				96ED9E2F204EA1AF009E40BC /* Info.plist */,
+				96ED9E27204EA1AF009E40BC /* Orte.xcdatamodeld */,
+			);
+			path = Orte;
+			sourceTree = "<group>";
+		};
+		96ED9E37204EA1AF009E40BC /* OrteTests */ = {
+			isa = PBXGroup;
+			children = (
+				96ED9E38204EA1AF009E40BC /* OrteTests.swift */,
+				96ED9E3A204EA1AF009E40BC /* Info.plist */,
+			);
+			path = OrteTests;
+			sourceTree = "<group>";
+		};
+		96ED9E42204EA1AF009E40BC /* OrteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96ED9E43204EA1AF009E40BC /* OrteUITests.swift */,
+				96ED9E45204EA1AF009E40BC /* Info.plist */,
+			);
+			path = OrteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96ED9E1C204EA1AF009E40BC /* Orte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96ED9E48204EA1AF009E40BC /* Build configuration list for PBXNativeTarget "Orte" */;
+			buildPhases = (
+				96ED9E19204EA1AF009E40BC /* Sources */,
+				96ED9E1A204EA1AF009E40BC /* Frameworks */,
+				96ED9E1B204EA1AF009E40BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orte;
+			productName = Orte;
+			productReference = 96ED9E1D204EA1AF009E40BC /* Orte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96ED9E33204EA1AF009E40BC /* OrteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96ED9E4B204EA1AF009E40BC /* Build configuration list for PBXNativeTarget "OrteTests" */;
+			buildPhases = (
+				96ED9E30204EA1AF009E40BC /* Sources */,
+				96ED9E31204EA1AF009E40BC /* Frameworks */,
+				96ED9E32204EA1AF009E40BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96ED9E36204EA1AF009E40BC /* PBXTargetDependency */,
+			);
+			name = OrteTests;
+			productName = OrteTests;
+			productReference = 96ED9E34204EA1AF009E40BC /* OrteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96ED9E3E204EA1AF009E40BC /* OrteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96ED9E4E204EA1AF009E40BC /* Build configuration list for PBXNativeTarget "OrteUITests" */;
+			buildPhases = (
+				96ED9E3B204EA1AF009E40BC /* Sources */,
+				96ED9E3C204EA1AF009E40BC /* Frameworks */,
+				96ED9E3D204EA1AF009E40BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96ED9E41204EA1AF009E40BC /* PBXTargetDependency */,
+			);
+			name = OrteUITests;
+			productName = OrteUITests;
+			productReference = 96ED9E3F204EA1AF009E40BC /* OrteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96ED9E15204EA1AF009E40BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = CL;
+				TargetAttributes = {
+					96ED9E1C204EA1AF009E40BC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					96ED9E33204EA1AF009E40BC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96ED9E1C204EA1AF009E40BC;
+					};
+					96ED9E3E204EA1AF009E40BC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96ED9E1C204EA1AF009E40BC;
+					};
+				};
+			};
+			buildConfigurationList = 96ED9E18204EA1AF009E40BC /* Build configuration list for PBXProject "Orte" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96ED9E14204EA1AF009E40BC;
+			productRefGroup = 96ED9E1E204EA1AF009E40BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96ED9E1C204EA1AF009E40BC /* Orte */,
+				96ED9E33204EA1AF009E40BC /* OrteTests */,
+				96ED9E3E204EA1AF009E40BC /* OrteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96ED9E1B204EA1AF009E40BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ED9E2E204EA1AF009E40BC /* LaunchScreen.storyboard in Resources */,
+				96ED9E2B204EA1AF009E40BC /* Assets.xcassets in Resources */,
+				96ED9E26204EA1AF009E40BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ED9E32204EA1AF009E40BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ED9E3D204EA1AF009E40BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96ED9E19204EA1AF009E40BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ED9E23204EA1AF009E40BC /* ViewController.swift in Sources */,
+				96ED9E21204EA1AF009E40BC /* AppDelegate.swift in Sources */,
+				96ED9E29204EA1AF009E40BC /* Orte.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ED9E30204EA1AF009E40BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ED9E39204EA1AF009E40BC /* OrteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96ED9E3B204EA1AF009E40BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96ED9E44204EA1AF009E40BC /* OrteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96ED9E36204EA1AF009E40BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96ED9E1C204EA1AF009E40BC /* Orte */;
+			targetProxy = 96ED9E35204EA1AF009E40BC /* PBXContainerItemProxy */;
+		};
+		96ED9E41204EA1AF009E40BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96ED9E1C204EA1AF009E40BC /* Orte */;
+			targetProxy = 96ED9E40204EA1AF009E40BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96ED9E24204EA1AF009E40BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96ED9E25204EA1AF009E40BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96ED9E2C204EA1AF009E40BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96ED9E2D204EA1AF009E40BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96ED9E46204EA1AF009E40BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96ED9E47204EA1AF009E40BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96ED9E49204EA1AF009E40BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Orte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CL.Orte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96ED9E4A204EA1AF009E40BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Orte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CL.Orte;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96ED9E4C204EA1AF009E40BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OrteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CL.OrteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orte.app/Orte";
+			};
+			name = Debug;
+		};
+		96ED9E4D204EA1AF009E40BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OrteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CL.OrteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orte.app/Orte";
+			};
+			name = Release;
+		};
+		96ED9E4F204EA1AF009E40BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OrteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CL.OrteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Orte;
+			};
+			name = Debug;
+		};
+		96ED9E50204EA1AF009E40BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OrteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CL.OrteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Orte;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96ED9E18204EA1AF009E40BC /* Build configuration list for PBXProject "Orte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ED9E46204EA1AF009E40BC /* Debug */,
+				96ED9E47204EA1AF009E40BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96ED9E48204EA1AF009E40BC /* Build configuration list for PBXNativeTarget "Orte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ED9E49204EA1AF009E40BC /* Debug */,
+				96ED9E4A204EA1AF009E40BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96ED9E4B204EA1AF009E40BC /* Build configuration list for PBXNativeTarget "OrteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ED9E4C204EA1AF009E40BC /* Debug */,
+				96ED9E4D204EA1AF009E40BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96ED9E4E204EA1AF009E40BC /* Build configuration list for PBXNativeTarget "OrteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ED9E4F204EA1AF009E40BC /* Debug */,
+				96ED9E50204EA1AF009E40BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		96ED9E27204EA1AF009E40BC /* Orte.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				96ED9E28204EA1AF009E40BC /* Orte.xcdatamodel */,
+			);
+			currentVersion = 96ED9E28204EA1AF009E40BC /* Orte.xcdatamodel */;
+			path = Orte.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 96ED9E15204EA1AF009E40BC /* Project object */;
+}
