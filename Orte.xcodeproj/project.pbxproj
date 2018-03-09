@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		963562A22052BB89004476AA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963562A12052BB89004476AA /* MapKit.framework */; };
 		96ED9E21204EA1AF009E40BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED9E20204EA1AF009E40BC /* AppDelegate.swift */; };
 		96ED9E23204EA1AF009E40BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED9E22204EA1AF009E40BC /* ViewController.swift */; };
 		96ED9E26204EA1AF009E40BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ED9E24204EA1AF009E40BC /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		96ED9E2E204EA1AF009E40BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ED9E2C204EA1AF009E40BC /* LaunchScreen.storyboard */; };
 		96ED9E39204EA1AF009E40BC /* OrteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED9E38204EA1AF009E40BC /* OrteTests.swift */; };
 		96ED9E44204EA1AF009E40BC /* OrteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED9E43204EA1AF009E40BC /* OrteUITests.swift */; };
+		96ED9E52204EACAE009E40BC /* OrteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED9E51204EACAE009E40BC /* OrteTableViewController.swift */; };
+		96ED9E5420517623009E40BC /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED9E5320517623009E40BC /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		963562A12052BB89004476AA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		96ED9E1D204EA1AF009E40BC /* Orte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96ED9E20204EA1AF009E40BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96ED9E22204EA1AF009E40BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		96ED9E3F204EA1AF009E40BC /* OrteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96ED9E43204EA1AF009E40BC /* OrteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrteUITests.swift; sourceTree = "<group>"; };
 		96ED9E45204EA1AF009E40BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96ED9E51204EACAE009E40BC /* OrteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrteTableViewController.swift; sourceTree = "<group>"; };
+		96ED9E5320517623009E40BC /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963562A22052BB89004476AA /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		963562A02052BB89004476AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				963562A12052BB89004476AA /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		96ED9E14204EA1AF009E40BC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +98,7 @@
 				96ED9E37204EA1AF009E40BC /* OrteTests */,
 				96ED9E42204EA1AF009E40BC /* OrteUITests */,
 				96ED9E1E204EA1AF009E40BC /* Products */,
+				963562A02052BB89004476AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +117,9 @@
 			children = (
 				96ED9E20204EA1AF009E40BC /* AppDelegate.swift */,
 				96ED9E22204EA1AF009E40BC /* ViewController.swift */,
+				96ED9E51204EACAE009E40BC /* OrteTableViewController.swift */,
 				96ED9E24204EA1AF009E40BC /* Main.storyboard */,
+				96ED9E5320517623009E40BC /* EditViewController.swift */,
 				96ED9E2A204EA1AF009E40BC /* Assets.xcassets */,
 				96ED9E2C204EA1AF009E40BC /* LaunchScreen.storyboard */,
 				96ED9E2F204EA1AF009E40BC /* Info.plist */,
@@ -197,6 +215,11 @@
 					96ED9E1C204EA1AF009E40BC = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					96ED9E33204EA1AF009E40BC = {
 						CreatedOnToolsVersion = 9.2;
@@ -262,7 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96ED9E5420517623009E40BC /* EditViewController.swift in Sources */,
 				96ED9E23204EA1AF009E40BC /* ViewController.swift in Sources */,
+				96ED9E52204EACAE009E40BC /* OrteTableViewController.swift in Sources */,
 				96ED9E21204EA1AF009E40BC /* AppDelegate.swift in Sources */,
 				96ED9E29204EA1AF009E40BC /* Orte.xcdatamodeld in Sources */,
 			);
@@ -431,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8EBL25426;
 				INFOPLIST_FILE = Orte/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CL.Orte;
@@ -445,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8EBL25426;
 				INFOPLIST_FILE = Orte/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CL.Orte;

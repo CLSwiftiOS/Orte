@@ -4,6 +4,10 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>GPS läuft im Hintergrund weiter</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>GPS Daten werden benötigt </string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
